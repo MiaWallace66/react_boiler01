@@ -12,7 +12,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className={'container'}>
-				
+				<h1>this is a working project</h1>
 				<BillsApp />
 
 				
