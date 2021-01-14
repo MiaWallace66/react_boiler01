@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-
 import BillsApp from './components/BillsApp/BillsApp';
-import LandingPage from './components/LandingPage/LandingPage';
-
+import RealEstate from './components/RealEstate/RealEstate';
 class App extends Component {
 	constructor() {
 		super();
@@ -12,10 +10,8 @@ class App extends Component {
 	render() {
 		return (
 			<div className={'container'}>
-				<h1>this is a working project</h1>
-				<BillsApp />
-
-				
+				{/* <BillsApp /> */}
+				<RealEstate />
 			</div>
 		);
 	}
